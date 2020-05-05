@@ -1,5 +1,4 @@
 const fs = require('fs')
-const path = require('path')
 const axios = require('axios')
 const today_full = new Date().toISOString().split("T")
 const today = today_full[0].split("-")
